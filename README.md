@@ -12,3 +12,7 @@
   - [Synchronous Data Source](./synchronous-data-source.js) - Where cause and effect are at the same time 
   - [Asynchronous Data Source](./asynchronous-data-source.js) - Where consumers need to wait for to happen to happen
 - [Making Sync Data Source to act like Async](./making-sync-to-async.js)
+- Multicasting vs Unicasting
+  - Subjects as Multicasting operator
+    - What is multicasting ? - Refers to having a producer and consumer model where mutiple producers and multiple consumers can produce/subscribe to same observable to broadcast/consume the events.
+    - 
