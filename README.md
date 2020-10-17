@@ -15,4 +15,25 @@
 - Multicasting vs Unicasting
   - Subjects as Multicasting operator
     - What is multicasting ? - Refers to having a producer and consumer model where mutiple producers and multiple consumers can produce/subscribe to same observable to broadcast/consume the events.
-    - 
+  - Subject Types :
+    - Behavior Subject
+      - Emits the last emitted value to a late subscriber. Needs are dafult value to be passed while creating it.
+    - Async Subject
+      - Emits the last value once the observable completes to all the subscriber
+    - Replay Subject
+      - Keeps are buffer of all the events emitted so far - and passes the previoulsy emitted values to new late subscriber
+  - RxJs - Operators 
+    - Creational Operators 
+      - from
+      - of
+      - defer
+      - timer
+      - interval
+      - range
+      - fromEvent
+    - Filtering Operators
+      - filter
+      - first
+      - take
+      - last - dafault and can be used with pridicate as well
+      - 
